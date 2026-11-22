@@ -40,4 +40,4 @@ if df_wc is not None:
     ax.imshow(df_wc)
     st.pyplot(fig)
 else:
-    st.write("No text messages for WordCloud")
+    st.write("No text messages for WordCloud - is chat me sirf media hai")
