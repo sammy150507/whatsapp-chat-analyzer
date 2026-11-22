@@ -33,11 +33,11 @@ if uploaded_file is not None:
             with col1: ax.bar(x.index, x.values, color='red'); plt.xticks(rotation='vertical'); st.pyplot(fig)
             with col2: st.dataframe(new_df)
 
-    st.header("Wordcloud")
-df_wc = helper.create_wordcloud(selected_user, df)
+    #st.header("Wordcloud")
+#df_wc = helper.create_wordcloud(selected_user, df)
 if df_wc is not None:
-    fig, ax = plt.subplots()
-    ax.imshow(df_wc)
-    st.pyplot(fig)
+    #fig, ax = plt.subplots()
+    #ax.imshow(df_wc)
+    #st.pyplot(fig)
 else:
     st.write("No text messages for WordCloud - is chat me sirf media hai")
