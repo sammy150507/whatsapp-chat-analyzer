@@ -35,9 +35,9 @@ if uploaded_file is not None:
 
     #st.header("Wordcloud")
 #df_wc = helper.create_wordcloud(selected_user, df)
-if df_wc is not None:
+#if df_wc is not None:
     #fig, ax = plt.subplots()
     #ax.imshow(df_wc)
     #st.pyplot(fig)
-else:
-    st.write("No text messages for WordCloud - is chat me sirf media hai")
+#else:
+    #st.write("No text messages for WordCloud - is chat me sirf media hai")
